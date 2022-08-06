@@ -1,0 +1,91 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+.aside{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.bg-menu{
+    background-color: yellow;
+    padding: 15px;
+}
+.ev{
+width: 100px;
+}
+
+.mnu{
+text-decoration: none;
+margin-left: 30px;
+font-size: 15px;
+font-weight: 700;
+font-style: italic;
+color: black;
+}
+.mnu:hover{
+background-color: white;
+color: darkblue;
+padding: 10px 25px 10px 25px;
+}
+
+.title{
+    font-size: 30px;
+    color: darkslategrey;
+}
+
+.rnp{
+    font-size: 20px;
+    color: darkred;
+    font-weight: medium 500;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.title-1{
+    font-size: 30px;
+    color: chartreuse;
+}
+
+.lap{
+font-size: 20px;
+color: blue;
+font-weight:800;
+font-style: italic;
+margin-left: 30px;
+}
+
+.title-2{
+    color: mediumpurple;
+    font-size: 30px;
+}
+
+
+.fep{
+    font-size: 20px;
+    color: darksalmon;
+    font-weight:800;
+    font-style: italic;
+    margin-left: 30px;
+    }
+
+    .picla{
+        width: 200px;
+    }
+
+    .grid{
+        display: grid;
+      grid-template-columns: repeat(3,1fr);
+    }
+
+    .card{
+font-size: 15px;
+    }
+
+    .lambp{
+font-size: 10px;
+    }
+
+    .cr{
+        text-align: center;
+    }
